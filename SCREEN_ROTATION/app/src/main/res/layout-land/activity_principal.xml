@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adrianch.screen_rotation.Principal">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/brown" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:text="Sports"
+        android:textColor="@android:color/background_dark"
+        android:layout_above="@+id/textView2"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANTONIO BROWN"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/textView3"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29/09/2017"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antonio Brown (born July 10, 1988) is an American football wide receiver and punt returner for the Pittsburgh Steelers of the National Football League (NFL). He played college football at Central Michigan University, where he earned All-American honors in 2008 and 2009 as a punt returner. Brown was selected 195th overall by the Steelers in the sixth round of the 2010 NFL Draft."
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

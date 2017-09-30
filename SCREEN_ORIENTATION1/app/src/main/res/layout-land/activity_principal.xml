@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adrianch.screen_orientation1.Principal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLICACIONES I"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginBottom="20dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXAMEN PRÁCTICO"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1RA EVALUCACIÓN PARCIAL"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="58dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_marginStart="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/pt"
+        android:layout_marginStart="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp" />
+</RelativeLayout>
